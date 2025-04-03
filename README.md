@@ -4,7 +4,7 @@
 
 ![ewd-grid](https://img.shields.io/badge/ewd--grid-1.0.0-lightgreen) ![GPL-3.0 License](https://img.shields.io/badge/license-GPL--3.0-lightgreen)
 
-EWD Grid is a Chrome extension that boosts web development with grid overlays for layout alignment.
+EWD Grid is a extension that enhance web development with grid overlays for layout alignment.
 
 ## 🚀 Features
 - **Grid Overlay**: Instantly toggle a customizable grid to align and inspect elements.
@@ -14,7 +14,7 @@ EWD Grid is a Chrome extension that boosts web development with grid overlays fo
 
 ## 🛠 Installation
 1. Download the latest release from the [Releases](https://github.com/ericwddev/ewd-grid/releases) page.
-2. Go to `chrome://extensions` in your Chrome browser.
+2. Go to `chrome://extensions` in your Chromium-based browser.
 3. Enable "Developer mode" in the top right corner.
 4. Click "Load unpacked" and select the extension folder.
 
