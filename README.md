@@ -4,7 +4,7 @@
 
 ![ewd-grid](https://img.shields.io/badge/ewd--grid-1.0.0-lightgreen) ![GPL-3.0 License](https://img.shields.io/badge/license-GPL--3.0-lightgreen)
 
-EWD Grid is a extension that enhance web development with grid overlays for layout alignment.
+EWD Grid is an extension that enhances web development with grid overlays for layout alignment.
 
 ## 🚀 Features
 - **Grid Overlay**: Instantly toggle a customizable grid to align and inspect elements.
