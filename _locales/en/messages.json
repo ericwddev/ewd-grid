@@ -1,6 +1,58 @@
 {
   "extDesc": {
-    "message": "An extension for Chrome-based browsers with practical tools to enhance productivity and efficiency in web development.",
-    "description": "Extension description."
+    "message": "EWD Grid is an extension that enhances web development by providing grid overlays for layout alignment.",
+    "description": "Brief description of the extension."
+  },
+  "menuGridMode": {
+    "message": "Grid Mode",
+    "description": "Title of the grid overlay tool."
+  },
+  "quickTipGridForm": {
+    "message": "You can also adjust the field values using the up and down arrows on the keyboard or by scrolling the mouse wheel.",
+    "description": "Tip message displayed before the grid form."
+  },
+  "gridColumnsLabel": {
+    "message": "Columns",
+    "description": "Label for the field to set the number of grid columns."
+  },
+  "gridWidthLabel": {
+    "message": "Width",
+    "description": "Label for the field to adjust the grid width."
+  },
+  "gridGutterLabel": {
+    "message": "Spacing",
+    "description": "Label for the field to define the spacing between grid columns."
+  },
+  "gridColumnsColorPicker": {
+    "message": "Color",
+    "description": "Label for the grid color picker field."
+  },
+  "gridColumnsColorHexcode": {
+    "message": "Hex Color",
+    "description": "Label for the grid hex color field."
+  },
+  "gridColumnsColorAlpha": {
+    "message": "Transparency",
+    "description": "Label for the grid color transparency field."
+  },
+  "restoreDefaultGridSettings": {
+    "message": "Restore default settings",
+    "description": "Button message to clear LocalStorage and reset default settings."
+  },
+  "menuPageColors": {
+    "message": "Page Colors",
+    "description": "Title of the tool that displays the colors present on the page."
+  },
+  "accessError": {
+    "message": "Unable to use the extension on this page.",
+    "description": "Error message when the user tries to use the extension on a restricted or special page."
+  },
+  "footerDesc": {
+    "message": "Found an issue or have a suggestion? ",
+    "description": "Text displayed in the footer."
+  },
+  "githubIssue": {
+    "message": "Open an issue on GitHub.",
+    "description": "Linked text in the footer."
   }
 }

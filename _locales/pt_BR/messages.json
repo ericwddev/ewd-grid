@@ -1,6 +1,58 @@
 {
   "extDesc": {
-    "message": "Uma extensão para navegadores baseados no Chrome com ferramentas práticas para aumentar a produtividade e eficiência no desenvolvimento web.",
-    "description": "Extension description."
+    "message": "Ferramentas práticas para aumentar a produtividade e eficiência no desenvolvimento web.",
+    "description": "Descrição breve da extensão."
+  },
+  "menuGridMode": {
+    "message": "Modo Grid",
+    "description": "Título da ferramenta de sobreposição de grid"
+  },
+  "quickTipGridForm": {
+    "message": "Você também pode ajustar os valores dos campos utilizando as setas para cima e para baixo no teclado ou rolando o scroll do mouse.",
+    "description": "Mensagem de dica que aparece antes do formulário de grid"
+  },
+  "gridColumnsLabel": {
+    "message": "Colunas",
+    "description": "Rótulo do campo para definir o número de colunas do grid."
+  },
+  "gridWidthLabel": {
+    "message": "Largura",
+    "description": "Rótulo do campo para ajustar a largura do grid."
+  },
+  "gridGutterLabel": {
+    "message": "Espaçamento",
+    "description": "Rótulo do campo para definir o espaço entre as colunas do grid."
+  },
+  "gridColumnsColorPicker": {
+    "message": "Cor",
+    "description": "Rótulo do campo de color picker do grid"
+  },
+  "gridColumnsColorHexcode": {
+    "message": "Cor hexadecimal",
+    "description": "Rótulo do campo de hex color do grid"
+  },
+  "gridColumnsColorAlpha": {
+    "message": "Transparência",
+    "description": "Rótulo do campo de transparência da cor do grid"
+  },
+  "restoreDefaultGridSettings": {
+    "message": "Restaurar configurações padrões",
+    "description": "Mensagem do botão para apagar o LocalStorage e resetar as configurações padrões"
+  },
+  "menuPageColors": {
+    "message": "Cores da página",
+    "description": "Título da ferramenta que mostra as cores presentes na página"
+  },
+  "accessError": {
+    "message": "Não é possível usar a extensão nessa página.",
+    "description": "Mensagem de erro caso o usuário tente usar a extensão em uma página sem acesso ou especial"
+  },
+  "footerDesc": {
+    "message": "Encontrou um problema ou tem uma sugestão? ",
+    "description": "Texto exibido no footer"
+  },
+  "githubIssue": {
+    "message": "Abra um problema no GitHub.",
+    "description": "Texto com link no footer"
   }
 }

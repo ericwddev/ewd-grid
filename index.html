@@ -2,8 +2,94 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="/styles/grid-mode.css">
+  <script src="/scripts/i18n.js" defer></script>
+  <script src="/scripts/grid-mode-tool.js" defer></script>
 </head>
 <body>
-  
+  <header>
+    <nav class="row">
+      <figure id="ewd-logo">
+        <img src="icons/base-ewd-grid-128px.png" alt="Logo">
+      </figure>
+      <a class="icon" id="nav-about" name="About" aria-label="About" href="https://github.com/ericwddev/ewd-grid" target="_blank">
+        <svg class="icon">
+          <use href="/icons/circle-question-regular.svg#icon-question"></use>
+        </svg>
+      </a>
+    </nav>
+  </header>
+  <main>
+    <section class="active container-stroke" id="grid-mode-section">
+      <div id="grid-mode-header" class="row">
+        <h1 data-i18n="menuGridMode"></h1>
+        <div class="toggle-switch">
+          <input type="checkbox" name="toggle-switch" id="grid-toggle-switch" class="toggle-switch-checkbox">
+          <label class="toggle-switch-label" for="grid-toggle-switch">
+            <span class="toggle-switch-text"></span>
+            <span class="toggle-switch-circle"></span>
+          </label>
+        </div>
+      </div>
+      <form class="center" id="grid-mode-form">
+        <div class="quick-tip row">
+          <svg class="icon icon-tip">
+            <use href="/icons/circle-info-solid.svg#icon-tip"></use>
+          </svg>
+          <p data-i18n="quickTipGridForm"></p>
+        </div>
+        <fieldset class="grid-form-first row">
+          <div class="grid-form-field center">
+            <label class="grid-form-input-label" for="grid-columns" data-i18n="gridColumnsLabel"></label>
+            <input type="number" name="grid-columns" id="grid-columns" value="6">
+            <label for="grid-columns"class="grid-measure-box center">Un</label>
+          </div>
+          <div class="grid-form-field center">
+            <label class="grid-form-input-label" for="grid-width" data-i18n="gridWidthLabel"></label>
+            <input type="number" name="grid-width" id="grid-width" value="1140">
+            <label for="grid-width" class="grid-measure-box center">Px</label>
+          </div>
+          <div class="grid-form-field center">
+            <label class="grid-form-input-label" for="grid-gutter" data-i18n="gridGutterLabel"></label>
+            <input type="number" name="grid-gutter" id="grid-gutter" value="20">
+            <label for="grid-gutter" class="grid-measure-box center">Px</label>
+          </div>
+        </fieldset>
+        <fieldset class="grid-form-second row">
+          <div class="grid-form-field center">
+            <label class="grid-form-input-label" for="grid-columns" data-i18n="gridColumnsColorPicker"></label>
+            <input type="color" name="grid-form-color-picker" id="grid-form-color-picker" value="#EAD56C">
+          </div>
+          <div class="grid-form-field center">
+            <label class="grid-form-input-label" for="grid-form-color-alpha" data-i18n="gridColumnsColorAlpha"></label>
+            <input type="number" value="50" min="1" step="1" name="grid-form-color-alpha" id="grid-form-color-alpha">
+            <label for="grid-form-color-alpha" class="grid-measure-box center">%</label>
+          </div>
+          <div class="grid-form-field center">
+            <label class="grid-form-input-label" for="grid-form-color-hexcode" data-i18n="gridColumnsColorHexcode"></label>
+            <input type="text" name="grid-form-color-hexcode" id="grid-form-color-hexcode" value="#EAD56C" readonly>
+            <label for="grid-form-color-hexcode" class="grid-measure-box center">
+              <svg class="icon-small icon-eye">
+                <use href="/icons/eye-solid.svg#icon-eye"></use>
+              </svg>
+            </label>
+          </div>
+        </fieldset>
+        <button class="restore-button row">
+          <svg class="icon icon-restore">
+            <use href="/icons/clock-rotate-left-solid.svg#icon-restore"></use>
+          </svg>
+          <span data-i18n="restoreDefaultGridSettings"></span>
+        </button>
+      </form>
+    </section>
+    <section class="container-stroke" id="access-error">
+      <span data-i18n="accessError"></span>
+    </section>
+  </main>
+  <footer class="center">
+      <p data-i18n="footerDesc"></p>
+      <a href="https://github.com/ericwddev/ewd-tools/issues" target="_blank" data-i18n="githubIssue"></a>
+  </footer>
 </body>
 </html>

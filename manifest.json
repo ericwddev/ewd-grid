@@ -1,26 +1,16 @@
 {
   "manifest_version": 3,
-  "name": "EWD Tools",
+  "name": "EWD Grids",
   "description": "__MSG_extDesc__",
+  "version": "1.0.0",
   "default_locale": "en",
-  "author": {
-    "email": "dev@ericwd.com"
-  },
-  "version": "1.0",
-  "icons": {
-    "16": "images/icon-16.png",
-    "48": "images/icon-48.png",
-    "128": "images/icon-128.png"
-  },
-  "background": {
-    "service_worker": "service-worker.js"
-  },
   "action": {
+    "default_title": "EWD Grid",
+    "default_popup": "index.html",
     "default_icon": {
-      "16": "images/icon-16.png",
-      "48": "images/icon-48.png",
-      "128": "images/icon-128.png"
+      "48": "icons/base-ewd-grid-48px.png",
+      "128": "icons/base-ewd-grid-128px.png"
     }
   },
-  "permissions": ["scripting", "activeTab"]
+  "permissions": ["scripting", "activeTab", "storage"]
 }
