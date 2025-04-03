@@ -141,6 +141,10 @@ gridFormInputs.forEach((input) => {
   }
 });
 
+gridForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+});
+
 gridCheckbox.addEventListener("change", () => {
   gridForm.classList.toggle("inactive", !gridCheckbox.checked);
   inPageChange();
